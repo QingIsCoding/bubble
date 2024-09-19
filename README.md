@@ -19,7 +19,7 @@ CREATE DATABASE bubble DEFAULT CHARSET=utf8mb4;
 2. 在`bubble/conf/config.ini`文件中按如下提示配置数据库连接信息。
 
 ```ini
-port = 9000
+port = 8080
 release = false
 
 [mysql]
@@ -46,5 +46,5 @@ Windows:
 bubble.exe conf/config.ini
 ```
 
-启动之后，使用浏览器打开`http://127.0.0.1:9000/`即可。
+启动之后，使用浏览器打开`http://127.0.0.1:8080/`即可。
 ![example.png](example.png)
